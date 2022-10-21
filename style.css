@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    margin: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* background-color: rgb(3, 146, 198); */
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: darkgrey;
+}
+main {
+    padding-top: 20px;
+}
+ul{
+    display: flex;
+}
+li{
+    margin: 10px;
+    list-style: none;
+}
+a{
+    color: rgb(3, 146, 198);
+    text-decoration: none;
+}
+.nav__inner {
+    padding-right: 100px;
+}
+.navbar {
+    padding: 0 100px 30px 0;
+}
+.background-img{
+    background-image: url("https://www.w3schools.com/w3css/img_lights.jpg");
+    background-size: cover;
+    height: 200px;
+   display: flex;
+   justify-content: flex-end;
+   align-items: flex-end;
+}
+.background-img h2{
+    background-color: aqua;
+}
+.company{
+    display: flex;
+    flex-direction: row;
+}
+.company__heading {
+    border-right: 1px solid black;
+    text-align: right;
+    margin-right: 15px;
+    flex: 0 0 20%;
+    color: rgb(3, 146, 198);
+    padding-right: 20px;
+    line-height: 1.2;
+    font-size: 4.2vw;
+}
+.company__content {
+    padding-right: 100px;
+    flex-grow: 1;
+}
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact-info__channel {
+    padding-bottom: 5px;
+    border-bottom: 5px solid blue;
+}
+.company__content img {
+    width: 100%;
+}
+
+.content-container {
+    position: relative;
+}
+
+.content-container__text {
+    position: absolute;
+    top: 0;
+}
+
+
+#meContainer {
+    background-color: rgb(3, 146, 198);
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+#me {
+width: 50px;
+height: 50px;
+border-radius: 50%;
+}
